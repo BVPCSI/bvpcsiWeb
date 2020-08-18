@@ -1,0 +1,149 @@
+body {
+  background-color: #f8f9fa !important;
+  font-family: 'Lora', serif;
+}
+
+.upevent_head {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.upevent_img {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upevent_img span {
+  background-color: #CBB58B;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 2px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  right: 85%;
+  top: 50px;
+}
+
+.upevent_img_image {
+  float: right;
+  border-radius: 5px;
+  width: 100%;
+  height: 20rem;
+}
+
+.upevent_img_text {
+  position: absolute;
+
+  padding: 20px;
+}
+
+.upevent_img_text h1::after {
+  height: 3px;
+  width: 21px;
+  background: #fff;
+  content: "";
+  position: absolute;
+  left: 24px;
+  top: 60px;
+}
+
+.upevent_img_text h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+
+
+.upevent_img_text p {
+  margin: 4px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.carousel_date {
+  display: table;
+  border-radius: 3px;
+  width: 82px;
+  background-color: #383831;
+}
+
+.carousel_date_wrap {
+  border-radius: 3px;
+  border: 1px #8d84a0 dashed;
+  margin: 6%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.carousel_date_wrap span {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.carousel_date_wrap p {
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.custom_row {
+  display: flex;
+}
+
+.carousel_text h1 {
+  display: inline;
+  font-size: 35px;
+  border-bottom-width: 2px;
+  border-bottom-color: #8d84a0;
+  border-bottom-style: dashed;
+}
+
+.carousel_text p {
+  margin-top: 20px;
+}
+
+.carousel-indicators {
+  margin-top: 38px;
+  padding-top: 136px;
+  height: 20%;
+}
+
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #CBB58B;
+}
+
+.carousel-indicators li{
+margin-top: 30px;
+}
+
+@media screen and (max-width:768px) {
+  .upevent_img {
+    margin-bottom: 25px;
+  }
+  .carousel_text h1 {
+    font-size: 27px;
+  }
+  .upevent_img_text h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:990px) {
+  .carousel_text h1 {
+    font-size: 30px;
+  }
+
+  .carousel_date{
+    width: 65px;
+  }
+}

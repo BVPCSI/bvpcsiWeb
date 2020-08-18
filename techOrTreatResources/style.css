@@ -1,0 +1,18 @@
+body{
+    /* background: #0F2027; 
+    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); */
+    background: rgba(26,16,26,1.0);
+	background-image: url("./images/bg.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.flex-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
