@@ -87,8 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-icon {
-  height: 80px;
-  width: 160px;
+  height: 50px;
+  width: 100px;
 }
 
 p {
@@ -9174,14 +9174,6 @@ button.bg-dark:focus {
   }
 }
 
-.round {
-  border-radius: 50%;
-  width: 87% !important;
-}
-.common {
-background: #f8f9fa !important;
-}
-
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -9850,7 +9842,7 @@ header .navbar .cta-btn a:hover {
   background-repeat: no-repeat;
   background-position: center center;
   height: calc(100vh - 217px);
-  min-height: 500px;
+  min-height: 700px;
   position: relative;
 }
 
@@ -10273,6 +10265,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .link-thumbnail {
+  border-radius: 5px;
   display: block;
   position: relative;
   overflow: hidden;
@@ -10650,21 +10643,3 @@ header .navbar .cta-btn a:hover {
   width:100%;
   margin:0 auto;
 }
-
-.btn {
-  border: none;
-  background: #eee;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.btn:hover {background: #eee;}
-
-.success {color: green;}
-.info {color: dodgerblue;}
-.warning {color: orange;}
-.danger {color: red;}
-.default {color: white;}
-
