@@ -9174,6 +9174,14 @@ button.bg-dark:focus {
   }
 }
 
+.round {
+  border-radius: 50%;
+  width: 87% !important;
+}
+.common {
+background: #f8f9fa !important;
+}
+
 .text-monospace {
   font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
