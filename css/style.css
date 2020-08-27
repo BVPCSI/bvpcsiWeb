@@ -91,13 +91,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 190px;
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
   .mobile-logo{
     height: 80px !important;
   }
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
   .mobile-text{
     font-size: 14px !important;
     margin-left: auto !important;
@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
   .mobile-video{
     width: 320px;
     display: block;
