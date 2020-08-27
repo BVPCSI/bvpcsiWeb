@@ -91,6 +91,32 @@ h1, h2, h3, h4, h5, h6 {
   width: 190px;
 }
 
+@media(max-width: 480px){
+  .mobile-logo{
+    height: 80px !important;
+  }
+}
+
+@media(max-width: 480px){
+  .mobile-text{
+    font-size: 14px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+}
+
+@media(max-width: 480px){
+  .mobile-video{
+    width: 320px;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem;
