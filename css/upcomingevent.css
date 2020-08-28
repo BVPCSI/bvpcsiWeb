@@ -6,7 +6,8 @@ body {
 .upevent_head {
   font-weight: 400;
   margin-bottom: 20px;
-  font-size: 50px;
+  font-size: 45px;
+  letter-spacing: 2px;
 }
 
 .upevent_img {
@@ -93,34 +94,65 @@ body {
   font-size: 14px;
 }
 
+.custom_row:link,.custom_row:active{
+  text-decoration: none;
+  color: black;
+  border-radius: 7px;
+
+}
+
+.custom_row:hover{
+  border-radius: 7px;
+  transform: translateY(-15px);
+  box-shadow: 5px 5px 14px -2px rgba(92,84,92,0.3);
+  
+}
+
+ 
+
 .custom_row {
+  font-size: 17px;
+
+  border-radius: 7px;
+  padding-top: 10px;
   display: flex;
+  text-align: justify;
 }
 
 .carousel_text h1 {
   display: inline;
-  font-size: 35px;
+  font-size: 30px;
   border-bottom-width: 2px;
   border-bottom-color: #8d84a0;
   border-bottom-style: dashed;
 }
 
+
+
 .carousel_text p {
+color: #777679;
+justify-content: center;
   margin-top: 20px;
 }
 
 .carousel-indicators {
   margin-top: 38px;
-  padding-top: 136px;
+  padding-top: 160px;
   height: 20%;
 }
 
 .carousel-indicators li{
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background-color: #CBB58B;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100% !important;
+  background-color: #f8f9fa !important;
+  border: 1px solid #CBB58B;
 }
+
+.carousel-indicators li.active{
+  background-color: #CBB58B !important;
+}
+
 
 .carousel-indicators li{
 margin-top: 30px;

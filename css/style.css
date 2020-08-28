@@ -4,7 +4,7 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -87,8 +87,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo-icon {
-  height: 80px;
-  width: 160px;
+  height: 100px;
+  width: 190px;
+}
+
+@media(max-width: 500px){
+  .mobile-logo{
+    height: 80px !important;
+  }
+}
+
+@media(max-width: 500px){
+  .mobile-text{
+    font-size: 14px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+}
+
+@media(max-width: 500px){
+  .mobile-video{
+    width: 320px;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
 }
 
 p {
@@ -560,6 +586,13 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+}
+
+@media (max-width:550px){
+  .logo-icon{
+    width: 110px;
+    height: 50px;
+  }
 }
 
 @media (min-width: 576px) {
@@ -9859,7 +9892,7 @@ header .navbar .cta-btn a:hover {
 .home-slider.home-slider .slider-item .slider-text {
   color: #fff;
   height: calc(100vh - 217px);
-  min-height: 700px;
+  min-height: 600px;
 }
 
 .home-slider.home-slider .slider-item .slider-text .child-name {
@@ -10265,6 +10298,7 @@ header .navbar .cta-btn a:hover {
 }
 
 .link-thumbnail {
+  border-radius: 5px;
   display: block;
   position: relative;
   overflow: hidden;
@@ -10642,3 +10676,4 @@ header .navbar .cta-btn a:hover {
   width:100%;
   margin:0 auto;
 }
+
