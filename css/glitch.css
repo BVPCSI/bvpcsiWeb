@@ -810,6 +810,10 @@
     .sponsors-section {
       padding-bottom: 2rem;
     }
+
+    .detail-mob{
+      padding-bottom: 20px;
+    }
   }
   
   /* THEMES MOBILE */
