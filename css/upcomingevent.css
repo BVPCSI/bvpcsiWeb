@@ -179,3 +179,15 @@ margin-top: 30px;
     width: 65px;
   }
 }
+
+@media(max-width:480px){
+  .img-med{
+    width: 350px !important;
+  }
+  .mob{
+    padding-bottom: 30px;
+  }
+  .mob-ol{
+    padding-bottom: 15px;
+  }
+}
