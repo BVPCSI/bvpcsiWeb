@@ -587,6 +587,7 @@ ul li a:hover {
 .time {
   width: 300px;
   margin: auto;
+  padding-top: 80px;
   /*  */
 }
 .time h2 {
