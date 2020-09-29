@@ -179,3 +179,29 @@ margin-top: 30px;
     width: 65px;
   }
 }
+
+@media(max-width:480px){
+  .img-med{
+    width: 450px !important;
+  }
+  .mob{
+    padding-bottom: 30px;
+  }
+  .mob-ol{
+    padding-bottom: 15px;
+  }
+  .carousel-mob{
+    right: 40px;
+  }
+  .list-mob{
+    padding-top: 230px;
+    padding-left: 30px;
+    width: 330px;
+  }
+}
+
+@media(max-width: 480px){
+  .col-mob{
+    margin-left: 17px;
+  }
+}

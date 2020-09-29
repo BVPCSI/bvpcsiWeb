@@ -5,7 +5,7 @@
   <title>BVPCSI</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800" rel="stylesheet">
 
   <link rel="stylesheet" href="css/animate.css">
@@ -21,6 +21,7 @@
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -87,10 +88,10 @@
       <div class="container">
         <div class="row slider-text align-items-center justify-content-center">
           <div class="col-md-10 text-center col-sm-12 element-animate">
-            <img src="images/MainPageImages/logoWithCsi.png" style="height: 240px;">
+            <img class = "mobile-logo" src="images/MainPageImages/logoWithCsi.png" style="height: 240px;">
             <p class="mb-5 sub-text">The amalgamation of technology and culture and with BVPCSI at the juncture, we
               provide a cornucopia of opportunities to give you the best of both worlds.</p>
-            <p><a href="glitch.html" class="btn btn-white btn-outline-white px-3 py-3">Glitch-The Gaming Subchapter Of BVPCSI </a>
+            <p class="mobile-text"><a href="glitch.html" class="btn btn-white btn-outline-white px-3 py-3 mobile-text">Registerations Here For Hacktober Fest </a>
 <!--               <a
                 href="techortreatteaser.html" class="btn btn-link btn-white">Glitch</a></p> -->
           </div>
@@ -117,110 +118,136 @@
 <!-- upcoming event section -->
 <section>
   <div class="container mt-5">
-    <div class="row">
+   <div class="row">
       <h1 class="upevent_head mx-auto">Upcoming Events</h1>
     </div>
     <div class="row">
-      <div class="col-lg-6 col-md-6">
-        <div class="upevent_img">
-          <img
-            src="https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598456406/Images/glitch_LOGO_BLACK_vibiob.png" 
-            class="img-fluid upevent_img_image" style="width: 500px; height: 70%;border-radius: 10px;"
-          />
+      <div
+        id="MagicCarousel"
+        class="col-lg-6 col-md-6 carousel slide mob"
+        data-ride="carousel"
+        style="padding-top: 60px;" >
+        
+         <!-- <iframe width="400" height="315" src="https://www.youtube.com/embed/d_siqu0oL_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
           <!-- https://i.postimg.cc/VkMV7ssd/Whats-App-Image-2020-08-19-at-7-04-42-PM.jpg      cupocode image -->
           <!-- <div class="upevent_img_text">
            <img src="" height="100">
           </div> -->
-        </div>
-      </div>
-      <div
-        id="MagicCarousel"
-        class="col-lg-6 col-md-6 carousel slide"
-        data-ride="carousel"
-      >
 
-      <!-- data ride = carousel below class to again set the carousel-->
-         <ol class="carousel-indicators "> 
+          <ol class="carousel-indicators mob-ol"> 
           <li
             data-target="#MagicCarousel"
             data-slide-to="0"
             class="active"
           ></li>
           <li  data-target="#MagicCarousel" data-slide-to="1" style="background:black"></li>
-          <li data-target="#MagicCarousel" data-slide-to="2" style="background:black"></li>
         </ol> 
+
         <div class="carousel-inner">
           <div class="carousel-item active" data-interval="8000">
-              <a href="./glitch.html" class="custom_row mt-2">
+                <img src="./images/MainPageImages/Quizzing.jpeg"  class="img-fluid img-med" style="height:550px; width:550px">
+          </div>
+             
+                
+            <div class="carousel-item">
+              <img src="./images/MainPageImages/Hacktober.jpeg" class="img-med" style="width:550px; height:550px">
+            </div>
+        </div>
+      </div>
+     <div
+        id="MagicCarousel"
+        class="col-lg-6 col-md-6 carousel slide carousel-mob"
+        data-ride="carousel"
+       >
+
+       <!-- data ride = carousel below class to again set the carousel-->
+         <ol class="carousel-indicators list-mob"> 
+          <li
+            data-target="#MMagicCarousel"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#MMagicCarousel" data-slide-to="1" style="background:black"></li>
+          <!-- <li data-target="#MagicCarousel" data-slide-to="2" style="background:black"></li> -->
+        </ol> 
+        <div class="carousel-inner car-mob" style="margin-top: 50px;">
+          <div class="carousel-item active" data-interval="6000">
+              <a href="https://forms.gle/G9vCpfxZr1KhsqrZ9" class="custom_row mt-2">
                 <div class="carousel_date">
                   <div class="carousel_date_wrap">
-                    <span>14</span>
-                    <p>Sep,20</p>
+                    <span>3</span>
+                    <p>Oct,20</p>
                   </div>
                 </div>
                 <div class="carousel_text px-3">
-                  <h1>Glitch</h1>
+                  <h1>Quizzi QAL</h1>
                   <p>
-                    Do these pictures look familiar to you? Are you lost in the world of video gaming? 
+                    <!-- Do these pictures look familiar to you? Are you lost in the world of video gaming? 
                   <br> When you game does it feel like your body is on fire, and you 
                     escape from the real world and into the arms of adventure and thrill?
                     <br> GLITCH is the right place for you!
                     Be it FPS Games or RPGs, Racing or Sports games, Strategy games or puzzles, GLITCH has it all. 
-                    ..... 
+                    .....  -->
+                    " Inteligence is quickness in seeing things as they are and responding before anyone else notices it. "
 
+                    Do you have that agility and intellect to get the better of your competitors?
+                    If yes, then this is the exemplary opportunity to pit your wits against your fellow geniuses and brag your talent as the Quizzing and Literature Society of BVPCSI brings to you Quizzi Qal as a part of the Encore Fest, which will include a bag of questions that will compel you to brood your brains out!              🎓🎓🏆
+                    
+                    An exotic amalgamation of Pop Culture, Geography, Politics, Literature and Current Events, provides all the flavors to a curious mind. 
                   </p>
                 </div>
               </a>
-              <a href="TechPages/techeventfive.html" class="custom_row mt-2">
+              <!-- <a href="" class="custom_row mt-2">
                   <div class="carousel_date">
-                    <div class="carousel_date_wrap">
-                      <span>22</span>
-                      <p>Aug,20</p>
-                    </div>
+                    
                   </div>
                   <div class="carousel_text px-3">
-                    <h1>Cup O'Code</h1>
-                    <!-- <p style="font-size: 18px; text-align: justify; color: black;"> -->
+                    <h1>Chess</h1>
+                  
                       <p>
-                      1 more year of college, gone with the wind. Did you spend it productively? 
-                      For example, did you learn how to code? Want to see how much you have progressed? 
-                      <br>Strategically timed, BVPCSI brings to you Cup O’Code, our online Competitive Coding Event..... 
+                        Checkmate.” The word is absolute and final; the game is over. Chess
+                        is an exciting battle of wits that can take hours for a single game.
+                        Each move is important, and a lapse of concentration even for a
+                        moment can spell the end. Whether you win or lose, you know it is
+                        entirely because of how you played during the game. You cannot pawn
+                        off your failures on others, and nobody can claim credit for your
+                        success.
                     </p>
                   </div>
-                </a>
+                </a> -->
             </div>
     
-          <div class="carousel-item" data-interval="8000">
-            <a href="./TechPages/techeventthree.html" class="custom_row mt-2">
+         <div class="carousel-item" data-interval="8000">
+            <a href="./glitch.html" class="custom_row mt-2">
               <div class="carousel_date">
-                <div class="carousel_date_wrap">
-                  <span>17</span>
-                  <p>April,20</p>
-                </div>
+               
               </div>
               <div class="carousel_text px-3">
-                <h1>Code Wars</h1>
+                <h1>Hacktober Fest</h1>
                 <p>
-                  BVPCSI organized an online competitive coding event called Code Wars on 17th April 2020. The competition proceeded for 2 hours on the platform HackerRank, where it had a footfall of around 100 students from our college as well as other colleges from across the country. Coding questions were provided to test the students’ skills with answers supported in over 30 languages.....
+                  hhhhh
                 </p>
               </div>
             </a>
-            <a href="./TechPages/techeventone.html" class="custom_row mt-2"> 
+            <!-- <a href="./glitch.html" class="custom_row mt-2"> 
               <div class="carousel_date">
-                 <div class="carousel_date_wrap">
-                  <span>4</span>
-                  <p>Feb,20</p>
-                 </div>
+                
               </div> 
               <div class="carousel_text px-3">
-                <h1>Machine Learning Track</h1>
-                <p>A workshop on the basics of Machine Learning was organized on 4th February during college hours. The agenda of the Workshop was to set up the python environment, introduce students to the language and it’s data types, and then introduce Machine Learning. By the end .......</p>
+                <h1>COD</h1>
+                <p>
+                  Load your Mags,  stack up your best Scorestreaks and get ready where you and your squad will fight  to become the ultimate virtual soldiers.Pissed at the government, aren't you? 
+                    Get into the Badlands of COD MOBILE for BVPCSI x GL!TCH will be hosting a COD Tournament the entire week for 
+                    all those ready to call an airstrike on their enemies. 
+                    A 5v5 fast-paced tournament of the multiplayer RPG game COD Mobile through the two modes of Hardpoint 
+                    Search and destroy.
+                </p>
               </div>
-            </a> 
+            </a>  -->
            
           </div>
-          <div class="carousel-item" data-interval="8000">
+          <!-- <div class="carousel-item" data-interval="8000">
             <a href='./TechPages/techeventtwo.html' class="custom_row mt-2">
               <div class="carousel_date">
                 <div class="carousel_date_wrap">
@@ -250,7 +277,7 @@
               </div>
             </a>
            
-          </div> 
+          </div>   -->
         </div>
       </div>
     </div>
@@ -442,10 +469,10 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 col-lg-4 element-animate mb-lg-4">
-          <a href="CultPages/culteventtwo.html" class="link-thumbnail">
-            <h3>Pubg Competition </h3>
+          <a href="glitch.html" class="link-thumbnail">
+            <h3>Gaming Week </h3>
             <span class="ion-plus icon"></span>
-            <img src="images/MainPageImages/culttwo.png" class="img-fluid" style="height: 300px;width: 90%;">
+            <img src="images/MainPageImages/Gaming Week.jpeg" class="img-fluid" style="height: 300px;width: 90%;">
           </a>
         </div>
         <div class="col-md-6 col-lg-4 element-animate mb-lg-4">
@@ -477,11 +504,11 @@
             <img src="images/MainPageImages/four.png" class="img-fluid" style="height: 300px;width: 90%;">
           </a>
         </div>
-        <div class="col-md-6 col-lg-4 element-animate ">
-          <a href="SubChapPages/qaleventtwo.html" class="link-thumbnail">
-            <h3>QAL Comic Quiz</h3>
+       <div class="col-md-6 col-lg-4 element-animate ">
+          <a href="CultPages/culteventthree.html" class="link-thumbnail">
+            <h3>Blind School Visit</h3>
             <span class="ion-plus icon"></span>
-            <img src="images/MainPageImages/qaleventtwo.jpg" class="img-fluid" style="height: 300px;width: 90%;">
+            <img src="images/CultImages/cultthree.png" class="img-fluid" style="height: 300px;width: 90%;">
           </a>
         </div>
       </div>
@@ -631,9 +658,14 @@
           <p class="mb-5">The amalgamation of technology and culture and with BVPCSI at the juncture, we provide a
             cornucopia of opportunities to give you the best of both worlds.</p>
           <ul class="list-unstyled footer-link d-flex footer-social">
-            <li><a href="https://www.facebook.com/bvcoecsi" class="p-2"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="https://www.facebook.com/bvcoecsi" class="p-2"><i class="fab fa-facebook"></i></span></a></li>
             <!-- <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li> -->
-            <li><a href="https://www.instagram.com/bvpcsi/" class="p-2"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="https://www.instagram.com/bvpcsi/" class="p-2"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://discord.gg/brb6C9W" class="p-2"><i class="fab fa-discord"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/channel/UCc208DeJOzn4_xvrpA6S_Ow" class="p-2"><i class="fab fa-youtube"></i></a>
+            </li>
+
           </ul>
 
         </div>
@@ -646,6 +678,8 @@
             <li class="d-block"><span class="d-block">Telephone:</span><span class="text-white">+91 9711714709, +91 9205620551</span>
             </li>
             <li class="d-block"><span class="d-block">Email:</span><span class="text-white">bvpcsi.pr@gmail.com</span>
+            </li>
+            <li class="d-block"><span class="d-block"></span><span class="text-white">bvpcsi20@gmail.com</span>
             </li>
           </ul>
         </div>
