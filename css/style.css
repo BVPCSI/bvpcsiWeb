@@ -4320,6 +4320,12 @@ input[type="button"].btn-block {
   background-size: 100% 100%;
 }
 
+@media(max-width: 440px){
+  .chess-mob{
+    width: 400px !important;
+  }
+}
+
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {

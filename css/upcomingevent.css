@@ -180,9 +180,9 @@ margin-top: 30px;
   }
 }
 
-@media(max-width:480px){
+@media(max-width:440px){
   .img-med{
-    width: 450px !important;
+    width: 410px !important;
   }
   .mob{
     padding-bottom: 30px;
@@ -204,8 +204,5 @@ margin-top: 30px;
 @media(max-width: 480px){
   .col-mob{
     margin-left: 17px;
-  }
-  .car-mob{
-
   }
 }
