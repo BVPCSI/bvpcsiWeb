@@ -182,7 +182,7 @@ margin-top: 30px;
 
 @media(max-width:480px){
   .img-med{
-    width: 350px !important;
+    width: 450px !important;
   }
   .mob{
     padding-bottom: 30px;
@@ -197,5 +197,11 @@ margin-top: 30px;
     padding-top: 230px;
     padding-left: 30px;
     width: 330px;
+  }
+}
+
+@media(max-width: 480px){
+  .col-mob{
+    margin-left: 17px;
   }
 }
