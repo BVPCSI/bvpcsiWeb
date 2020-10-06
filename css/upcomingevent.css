@@ -180,7 +180,7 @@ margin-top: 30px;
   }
 }
 
-@media(max-width:440px){
+@media(max-width:480px){
   .img-med{
     width: 410px !important;
   }
@@ -197,7 +197,7 @@ margin-top: 30px;
     padding-top: 230px;
     padding-left: 30px;
     width: 330px;
-    margin-left: 125px !important;
+    margin-left: 85px !important;
   }
 }
 
