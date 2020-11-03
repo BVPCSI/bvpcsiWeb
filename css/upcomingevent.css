@@ -4,10 +4,11 @@ body {
 }
 
 .upevent_head {
-  font-weight: 400;
-  margin-bottom: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
   font-size: 45px;
-  letter-spacing: 2px;
+  border-bottom: #383831 2px dashed;
+  padding-bottom: 7px;
 }
 
 .upevent_img {
