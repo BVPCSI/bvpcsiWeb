@@ -95,21 +95,22 @@ body {
   font-size: 14px;
 }
 
-.custom_row:link,.custom_row:active{
+.custom_row:link,
+.custom_row:active {
   text-decoration: none;
   color: black;
   border-radius: 7px;
 
 }
 
-.custom_row:hover{
+.custom_row:hover {
   border-radius: 7px;
   transform: translateY(-15px);
-  box-shadow: 5px 5px 14px -2px rgba(92,84,92,0.3);
-  
+  box-shadow: 5px 5px 14px -2px rgba(92, 84, 92, 0.3);
+
 }
 
- 
+
 
 .custom_row {
   font-size: 17px;
@@ -131,8 +132,8 @@ body {
 
 
 .carousel_text p {
-color: #777679;
-justify-content: center;
+  color: #777679;
+  justify-content: center;
   margin-top: 20px;
 }
 
@@ -142,7 +143,7 @@ justify-content: center;
   height: 20%;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   width: 10px !important;
   height: 10px !important;
   border-radius: 100% !important;
@@ -150,22 +151,31 @@ justify-content: center;
   border: 1px solid #CBB58B;
 }
 
-.carousel-indicators li.active{
+.carousel-indicators li.active {
   background-color: #CBB58B !important;
 }
 
 
-.carousel-indicators li{
-margin-top: 30px;
+.carousel-indicators li {
+  margin-top: 30px;
+}
+
+.amongusresult-img {
+  height: 550px;
+  width: 600px
 }
 
 @media screen and (max-width:768px) {
   .upevent_img {
     margin-bottom: 25px;
   }
+
   .carousel_text h1 {
     font-size: 27px;
   }
+
+  
+
   .upevent_img_text h1 {
     font-size: 30px;
   }
@@ -176,25 +186,40 @@ margin-top: 30px;
     font-size: 30px;
   }
 
-  .carousel_date{
+  .amongusresult-img{
+    width: 768px;
+    height: auto;
+  }
+
+  .carousel_date {
     width: 65px;
   }
 }
 
-@media(max-width:480px){
-  .img-med{
+@media(max-width:480px) {
+  .img-med {
     width: 410px !important;
   }
-  .mob{
+
+  .amongusresult-img{
+    width: 380px;
+    height: auto;
+  }
+  
+
+  .mob {
     padding-bottom: 30px;
   }
-  .mob-ol{
+
+  .mob-ol {
     padding-bottom: 15px;
   }
-  .carousel-mob{
+
+  .carousel-mob {
     right: 40px;
   }
-  .list-mob{
+
+  .list-mob {
     padding-top: 230px;
     padding-left: 30px;
     width: 330px;
@@ -202,8 +227,8 @@ margin-top: 30px;
   }
 }
 
-@media(max-width: 480px){
-  .col-mob{
+@media(max-width: 480px) {
+  .col-mob {
     margin-left: 17px;
   }
 }
