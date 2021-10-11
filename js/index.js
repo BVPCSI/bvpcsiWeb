@@ -37,15 +37,15 @@ let countDown = new Date('Sep 2, 2020 00:00:00').getTime(),
       distance = countDown - now;
 
     (document.getElementById('days').innerText = Math.floor(distance / day)),
-      (document.getElementById('hours').innerText = Math.floor(
-        (distance % day) / hour
-      )),
-      (document.getElementById('minutes').innerText = Math.floor(
-        (distance % hour) / minute
-      )),
-      (document.getElementById('seconds').innerText = Math.floor(
-        (distance % minute) / second
-      ));
+    (document.getElementById('hours').innerText = Math.floor(
+      (distance % day) / hour
+    )),
+    (document.getElementById('minutes').innerText = Math.floor(
+      (distance % hour) / minute
+    )),
+    (document.getElementById('seconds').innerText = Math.floor(
+      (distance % minute) / second
+    ));
 
     if (distance < 0) {
       clearInterval(x);
