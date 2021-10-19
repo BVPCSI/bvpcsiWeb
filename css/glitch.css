@@ -317,7 +317,7 @@ img {
 }
 
 .about-right {
-  width: 70%;
+  width: 90%;
   float: right;
   text-align: center;
 
@@ -340,11 +340,15 @@ img {
 @media screen and (max-width: 600px) {
   .about-section {
     flex-direction: column;
-    padding: 4rem 2rem;
+
   }
 
   .about-left>img {
     padding-top: 0;
+  }
+
+  .valo-chess {
+    flex-direction: column;
   }
 }
 
