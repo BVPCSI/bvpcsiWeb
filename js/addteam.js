@@ -271,4 +271,9 @@ function addTeam()
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371602/SSS/Sonam_Kumari_-_Sonam_Kumari_gs9jsr.png"
         }
     ];
+    var temp = document.getElementsByTagName("template")[0];
+    var clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
 }
+
+addTeam();
