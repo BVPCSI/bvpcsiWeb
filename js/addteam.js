@@ -1,62 +1,85 @@
-function addTeam()
-{
+function addRole(rolememberList, role){
+    const section = document.createElement("section");
+    section.classList.add("sect");
+    const heading = document.createElement("h1");
+    heading.classList.add("h");
+    heading.innerHTML = role;
+    section.appendChild(heading);
+    const container = document.createElement("div")
+    container.classList.add("cont");
+    for(let i = 0; i < rolememberList.length; i++){
+        var member = rolememberList[i];
+        var temp = document.getElementsByTagName("template")[0];
+        var clon = temp.content.cloneNode(true);
+        clon.getElementById("image").src = member.imgsrc;
+        clon.getElementById("image").alt = member.name;
+        clon.getElementById("name").innerHTML = member.name;
+        clon.getElementById("SBT").innerHTML = member.designation;
+        container.appendChild(clon);
+    }
+    section.appendChild(container);
+    document.getElementById("cont").appendChild(section);
+}
+
+(()=>{
     const members = [
         {
             name: "Vishal Sharma",
-            role: "SBC",
+            role: "Student Branch Co-ordinator",
+            designation: "Student Branch Co-ordinator",
             imgsrc: "images/AboutUsImages/csipeople/StudentCoordinator/VishalSharma.jpg"
         },
         {
             name: "Eesha Gupta",
-            role: "Core",
+            role: "The Core",
             designation: "President",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371183/Core/Eesha_Gupta__President_d97vcu.jpg" 
         },
         {
             name: "Rishit Jain",
-            role: "Core",
+            role: "The Core",
             designation: "Vice-President",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371184/Core/Rishit_Jain_Vice_President_gmn17s.jpg"
         },
         {
             name: "Ritik Sharma",
-            role: "Core",
+            role: "The Core",
             designation: "Vice-President",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598532539/Core/IMG_20200806_223326_pimdh2.jpg"
         },
         {
             name: "Revant Rai Singh",
-            role: "Core",
+            role: "The Core",
             designation: "General Secretary",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371183/Core/Revant_Singh_Rai_GenSec_g6fdig.jpg"
         },
         {
             name: "Suharsh Pandey",
-            role: "Core",
+            role: "The Core",
             designation: "General Secretary",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371185/Core/JEE_0561_xolb79.jpg"
         },
         {
             name: "Isha Bansal",
-            role: "Core",
+            role: "The Core",
             designation: "Joint Secreatary",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371183/Core/Isha_Bansal__JointSec_doulkl.jpg"
         },
         {
             name: "Dishika",
-            role: "Core",
+            role: "The Core",
             designation: "Joint Secreatary",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371183/Core/Dishika_JointSec_yltesx.jpg"
         },
         {
             name: "Ruchir Ahluwalia",
-            role: "Core",
+            role: "The Core",
             designation: "Treasurer",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371184/Core/Ruchir_treasurer_zouoei.jpg"
         },
         {
             name: "Raghavi Singhal",
-            role: "Core",
+            role: "The Core",
             designation: "Treasurer",
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371184/Core/Raghavi_Treasurer_aroktz.jpg"
         },
@@ -271,9 +294,15 @@ function addTeam()
             imgsrc: "https://res.cloudinary.com/www-bvpcsi-com/image/upload/v1598371602/SSS/Sonam_Kumari_-_Sonam_Kumari_gs9jsr.png"
         }
     ];
-    var temp = document.getElementsByTagName("template")[0];
-    var clon = temp.content.cloneNode(true);
-    document.body.appendChild(clon);
-}
-
-addTeam();
+    let roles = [];
+    members.forEach((member)=>roles.push(member.role))
+    roles = [...new Set(roles)]
+    for(let i=0; i<roles.length; i++){
+        let rolemembers = []
+        members.forEach((member)=>{
+            if(member.role == roles[i])
+                rolemembers.push(member);
+        });
+        addRole(rolemembers, roles[i]);
+    }
+})()
