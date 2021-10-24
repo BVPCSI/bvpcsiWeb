@@ -57,6 +57,7 @@ body {
 }
 
 .card1{
+    transition-duration: 1s;
     border: 0.01rem solid;
     border-radius: 7%;
     background-color: #f8f9fa;
