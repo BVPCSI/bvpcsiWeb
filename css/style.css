@@ -11509,7 +11509,8 @@ header .navbar .cta-btn a:hover {
   color: #000;
 }
 
-.link-thumbnail {
+.link-thumbnail,
+.mainPage-event {
   border-radius: 5px;
   display: block;
   position: relative;
@@ -11518,12 +11519,19 @@ header .navbar .cta-btn a:hover {
 }
 
 @media (max-width: 991.98px) {
-  .link-thumbnail {
+
+  .link-thumbnail,
+  .mainPage-event {
     margin-bottom: 30px;
   }
 }
 
-.link-thumbnail img {
+.mainPage-event {
+  margin-bottom: 20px;
+}
+
+.link-thumbnail img,
+.mainPage-event img {
   position: relative;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -11613,6 +11621,18 @@ header .navbar .cta-btn a:hover {
 .link-thumbnail:hover:before {
   opacity: 1;
   visibility: visible;
+}
+
+.mainPage-event h3 {
+  color: var(--dark);
+  margin-top: 2%;
+}
+
+.mainPage-event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .border-t {
